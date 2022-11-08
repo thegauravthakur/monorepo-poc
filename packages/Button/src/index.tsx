@@ -19,7 +19,7 @@ export function Counter() {
                     setCounter(counter - 1);
                 }}
             >
-                Decrement
+                -
             </button>
         </div>
     );
