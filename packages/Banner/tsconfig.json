@@ -1,3 +1,3 @@
 {
-  "extends": "../../shared/base.tsconfig.json",
+  "extends": "../../shared/configurations/base.tsconfig.json",
 }
