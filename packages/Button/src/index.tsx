@@ -1,6 +1,9 @@
 import { useState } from 'react';
 
-export function Counter() {
+interface CounterProps {
+    decrementButtonLabel: string;
+}
+export function Counter({ decrementButtonLabel = 'decrement' }: CounterProps) {
     const [counter, setCounter] = useState(0);
     return (
         <div>
@@ -19,7 +22,7 @@ export function Counter() {
                     setCounter(counter - 1);
                 }}
             >
-                -
+                {decrementButtonLabel}
             </button>
         </div>
     );
