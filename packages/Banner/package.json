@@ -1,11 +1,11 @@
 {
-  "name": "@gauravcodes/carousel",
-  "version": "0.0.1",
+  "name": "@gauravcodes/banner",
+  "version": "0.0.2",
   "main": "dist/cjs/index.js",
   "module": "dist/esm/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs"
+    "build": "rimraf dist && rollup -c --bundleConfigAsCjs"
   },
   "author": "Gaurav Thakur",
   "files": [

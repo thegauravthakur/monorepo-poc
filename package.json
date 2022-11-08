@@ -1,7 +1,8 @@
 {
+  "name": "monorepo-poc",
+  "private": true,
   "author": "Gaurav Thakur <gaurav2.thakur@ril.com>",
   "license": "MIT",
-  "dependencies": {},
   "scripts": {
     "package:generate": "node ./shared/tools/template"
   },
@@ -11,12 +12,17 @@
     "@rollup/plugin-typescript": "^9.0.2",
     "@types/react": "^18.0.25",
     "fs-extra": "^10.1.0",
+    "lerna": "^6.0.3",
     "prettier": "^2.7.1",
     "react": "^18.2.0",
+    "rimraf": "^3.0.2",
     "rollup": "^3.2.5",
     "rollup-plugin-dts": "^5.0.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
     "tsc": "^2.0.4",
     "typescript": "^4.8.4"
-  }
+  },
+  "workspaces": [
+    "packages/*"
+  ]
 }

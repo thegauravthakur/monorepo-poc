@@ -7,7 +7,7 @@ module.exports.packageJSON = `{
   "module": "dist/esm/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "rollup -c --bundleConfigAsCjs"
+    "build": "rimraf dist && rollup -c --bundleConfigAsCjs"
   },
   "author": "Gaurav Thakur",
   "files": [

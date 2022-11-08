@@ -12,12 +12,10 @@ export function getBaseConfig(main, module) {
                 {
                     file: main,
                     format: 'cjs',
-                    sourcemap: true,
                 },
                 {
                     file: module,
                     format: 'esm',
-                    sourcemap: true,
                 },
             ],
             plugins: [
