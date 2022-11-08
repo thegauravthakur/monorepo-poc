@@ -14,7 +14,7 @@ export function Counter({ decrementButtonLabel = 'decrement' }: CounterProps) {
                     setCounter(counter + 1);
                 }}
             >
-                +
+                increse
             </button>
             <button
                 type='button'
