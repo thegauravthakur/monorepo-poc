@@ -7,7 +7,7 @@ export function Counter({ decrementButtonLabel = 'decrement' }: CounterProps) {
     const [counter, setCounter] = useState(0);
     return (
         <div>
-            <h1>Counter: {counter}</h1>
+            <h1>Counterrrrr: {counter}</h1>
             <button
                 type='button'
                 onClick={() => {
