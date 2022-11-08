@@ -10,6 +10,7 @@
     "declaration": true,
     "outDir": "dist",
     "moduleResolution": "node",
-    "emitDeclarationOnly": true,
-  }
+    "emitDeclarationOnly": true
+  },
+  "exclude": ["../../**/*.stories.tsx"]
 }
