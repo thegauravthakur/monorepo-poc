@@ -6,7 +6,8 @@
     "scripts": {
         "package:generate": "node ./shared/tools/template",
         "storybook": "start-storybook -p 6006",
-        "build-storybook": "build-storybook"
+        "build-storybook": "build-storybook",
+        "publish-packages": "turbo run build lint test && changeset version && changeset publish"
     },
     "devDependencies": {
         "@babel/core": "^7.20.2",
