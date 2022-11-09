@@ -7,7 +7,8 @@
         "package:generate": "node ./shared/tools/template",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook",
-        "publish-packages": "turbo run build lint test && changeset version && changeset publish"
+        "publish-packages": "turbo run build lint test && changeset version && changeset publish",
+        "commit": "cz"
     },
     "devDependencies": {
         "@babel/core": "^7.20.2",
@@ -24,6 +25,7 @@
         "@storybook/testing-library": "^0.0.13",
         "@types/react": "^18.0.25",
         "babel-loader": "^8.3.0",
+        "commitizen": "^4.2.5",
         "fs-extra": "^10.1.0",
         "prettier": "^2.7.1",
         "react": "^18.2.0",
