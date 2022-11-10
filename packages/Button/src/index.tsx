@@ -4,7 +4,7 @@ interface CounterProps {
     decrementButtonLabel: string;
 }
 export function Counter({ decrementButtonLabel = 'decrement' }: CounterProps) {
-    const [counter, setCounter] = useState(5);
+    const [counter, setCounter] = useState(10);
     return (
         <div>
             <h1>Counter: {counter}</h1>
