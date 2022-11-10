@@ -5,7 +5,7 @@
     "license": "MIT",
     "scripts": {
         "package:generate": "node ./shared/tools/template",
-        "package:publish": "lerna publish",
+        "package-publish": "lerna publish",
         "storybook": "start-storybook -p 6006",
         "build-storybook": "build-storybook"
     },
